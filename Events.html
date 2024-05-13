@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Events</title>
+    </head>
+<body>
+  <div class="PageEvents">
+    <div class="HeaderBackground">
+      <div class="HeaderContent">
+
+          <a href="PlaceFinding.html"><div class="LogoTitle">
+            <img src="images/logo.svg" alt="">
+            <p class="HeaderSection">PlaceFinding</p>
+          </div></a>
+
+        <div class="HeaderNames">
+            <a href="Events.html" class="HeaderSection" aria-current="page"> Events </a>
+            <a href="PopularSpots.html" class="HeaderSection" aria-current="page"> Spots </a>
+            <a href="Categories.html" class="HeaderSection" aria-current="page"> Categories </a>
+        </div>
+        <div class="SearchButton btn-group">
+          <button class="btn btn-secondary" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+            </svg>
+          </button>
+          <form class="dropdown-menu p-4 dropdown-menu-end">
+            <div class="mb-3">
+              <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="Type to search">
+            </div>
+            <button type="submit" class="btn btn-primary" id="SearchSubmit">Search</button>
+
+          </form>
+        </div>
+
+        <div href="#" class="btn-group">
+          <button class="btn btn-secondary" id="burgerbutton" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+            </svg>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="PlaceFinding.html">Main page</a></li>
+            <li><a class="dropdown-item" href="Events.html">Events</a></li>
+            <li><a class="dropdown-item" href="PopularSpots.html">Spots</a></li>
+            <li><a class="dropdown-item" href="Categories.html">Categories</a></li>
+            
+          </ul>
+        </div>
+
+
+      </div>
+    </div>
+      <div class="PageM">
+        <div class="PageContent" id="Events">
+          <h2 class="ContentName">Upcoming Events</h2>
+          <div class="UnderLine"></div>
+          
+          <div class="EventsList">
+            <a href="#" class="Event">
+              <div class="EventBlock">
+                <img src="images/Event1.png" alt="" class="EventImage">
+
+                <div class="EventDesc">
+                  <h4 class="EventName">Total Tearing tour</h4>
+
+                  <div class="EventWhereAndPrice"> 
+                    <div class="EventWhereGroup">
+                            <p class="SpotKey">WHERE</p>
+                            <p class="NameAndAdress" id="PlaceName">Bar blud</p>
+                            <p class="NameAndAdress" id="Adress">Nezalezhnosti 25</p>
+                    </div>
+
+                    <div class="EntranceAndPrice">
+                      <p class="SpotKey">ENTRANCE</p>
+                      <p class="EventPrice">300 UAH</p>
+                    </div>
+                    <h5 class="EventDate">may 19<br>17:00</h5>
+
+                  </div>
+                </div>
+
+              </div>
+            </a>
+
+            <a href="#" class="Event">
+              <div class="EventBlock">
+                <img src="images/Event2.png" alt="" class="EventImage">
+
+                <div class="EventDesc">
+                  <h4 class="EventName">Reivakh, Strange Train</h4>
+
+                  <div class="EventWhereAndPrice"> 
+                    <div class="EventWhereGroup">
+                            <p class="SpotKey">WHERE</p>
+                            <p class="NameAndAdress" id="PlaceName">Bar blud</p>
+                            <p class="NameAndAdress" id="Adress">Nezalezhnosti 25</p>
+                    </div>
+
+                    <div class="EntranceAndPrice">
+                      <p class="SpotKey">ENTRANCE</p>
+                      <p class="EventPrice">200-300 UAH</p>
+                    </div>
+                    <h5 class="EventDate">may 12<br>18:00</h5>
+
+                  </div>
+                </div>
+
+              </div>
+            </a>
+
+            <a href="#" class="Event">
+              <div class="EventBlock">
+                <img src="images/Event3.png" alt="" class="EventImage">
+
+                <div class="EventDesc">
+                  <h4 class="EventName">Mafia competition</h4>
+
+                  <div class="EventWhereAndPrice"> 
+                    <div class="EventWhereGroup">
+                            <p class="SpotKey">WHERE</p>
+                            <p class="NameAndAdress" id="PlaceName">center “Paragraph”</p>
+                            <p class="NameAndAdress" id="Adress">shevchenka 57</p>
+                    </div>
+
+                    <div class="EntranceAndPrice">
+                      <p class="SpotKey">ENTRANCE</p>
+                      <p class="EventPrice">FREE</p>
+                    </div>
+                    <h5 class="EventDate">every saturday<br/>18:00</h5>
+
+                  </div>
+                </div>
+
+              </div>
+            </a>
+
+            <a href="#" class="Event">
+              <div class="EventBlock">
+                <img src="images/Event4.png" alt="" class="EventImage">
+
+                <div class="EventDesc">
+                  <h4 class="EventName">STANZA "Time of the Brave"</h4>
+
+                  <div class="EventWhereAndPrice"> 
+                    <div class="EventWhereGroup">
+                            <p class="SpotKey">WHERE</p>
+                            <p class="NameAndAdress" id="PlaceName">vagabundo</p>
+                            <p class="NameAndAdress" id="Adress">pylypa orlyka 7</p>
+                    </div>
+
+                    <div class="EntranceAndPrice">
+                      <p class="SpotKey">ENTRANCE</p>
+                      <p class="EventPrice">200-300 UAH</p>
+                    </div>
+                    <h5 class="EventDate">april 17<br/>19:00</h5>
+
+                  </div>
+                </div>
+
+              </div>
+            </a>
+
+            <a href="#" class="Event">
+              <div class="EventBlock">
+                <img src="images/Event5.png" alt="" class="EventImage">
+
+                <div class="EventDesc">
+                  <h4 class="EventName">"Rising" the band</h4>
+
+                  <div class="EventWhereAndPrice"> 
+                    <div class="EventWhereGroup">
+                            <p class="SpotKey">WHERE</p>
+                            <p class="NameAndAdress" id="PlaceName">bar blud</p>
+                            <p class="NameAndAdress" id="Adress">nezalezhnosti 25</p>
+                    </div>
+
+                    <div class="EntranceAndPrice">
+                      <p class="SpotKey">ENTRANCE</p>
+                      <p class="EventPrice">FREE</p>
+                    </div>
+                    <h5 class="EventDate">april 27<br/>19:00</h5>
+
+                  </div>
+                </div>
+
+              </div>
+            </a>
+
+            <a href="#" class="Event">
+              <div class="EventBlock">
+                <img src="images/Event6.png" alt="" class="EventImage">
+
+                <div class="EventDesc">
+                  <h4 class="EventName">I'm looking for the sky</h4>
+
+                  <div class="EventWhereAndPrice"> 
+                    <div class="EventWhereGroup">
+                            <p class="SpotKey">WHERE</p>
+                            <p class="NameAndAdress" id="PlaceName">contert hall</p>
+                            <p class="NameAndAdress" id="Adress">lesya kurbasa 3</p>
+                    </div>
+
+                    <div class="EntranceAndPrice">
+                      <p class="SpotKey">ENTRANCE</p>
+                      <p class="EventPrice">240-450 UAH</p>
+                    </div>
+                    <h5 class="EventDate">april 27<br/>19:00</h5>
+
+                  </div>
+                </div>
+
+              </div>
+            </a>
+
+            <a href="#" class="Event">
+              <div class="EventBlock">
+                <img src="images/Event7.png" alt="" class="EventImage">
+
+                <div class="EventDesc">
+                  <h4 class="EventName">The Kaidash Family</h4>
+
+                  <div class="EventWhereAndPrice"> 
+                    <div class="EventWhereGroup">
+                            <p class="SpotKey">WHERE</p>
+                            <p class="NameAndAdress" id="PlaceName">drama theater</p>
+                            <p class="NameAndAdress" id="Adress">nezalezhnosti 42</p>
+                    </div>
+
+                    <div class="EntranceAndPrice">
+                      <p class="SpotKey">ENTRANCE</p>
+                      <p class="EventPrice">220-450 UAH</p>
+                    </div>
+                    <h5 class="EventDate">may 18<br/>18:00</h5>
+                  </div>
+                </div>
+
+              </div>
+            </a>
+
+            <a href="#" class="Event">
+              <div class="EventBlock">
+                <img src="images/Event8.png" alt="" class="EventImage">
+
+                <div class="EventDesc">
+                  <h4 class="EventName">The Hutsul Wedding</h4>
+
+                  <div class="EventWhereAndPrice"> 
+                    <div class="EventWhereGroup">
+                      <p class="SpotKey">WHERE</p>
+                      <p class="NameAndAdress" id="PlaceName">drama theater</p>
+                      <p class="NameAndAdress" id="Adress">nezalezhnosti 42</p>
+                    </div>
+
+                    <div class="EntranceAndPrice">
+                      <p class="SpotKey">ENTRANCE</p>
+                      <p class="EventPrice">100-350 UAH</p>
+                    </div>
+                    <h5 class="EventDate">may 12<br/>13:00</h5>
+
+                  </div>
+                </div>
+              </div>
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    <div class="Footer">
+      <div class="FooterBlocks">
+        <div class="FooterLinkBlock" id="leftlink">
+            <h6 class="FooterLinks">About</h6>
+            <h6 class="FooterLinks">Growers</h6>
+            <h6 class="FooterLinks">Merchants</h6>
+            <h6 class="FooterLinks">Partners</h6>
+            <h6 class="FooterLinks">Contact</h6>
+            
+        </div>
+        <div class="FooterLinkBlockright">
+            <h6 class="FooterLinks" id="righttext">Facebook</h6>
+            <h6 class="FooterLinks" id="righttext">Twitter</h6>
+            <h6 class="FooterLinks" id="righttext">Linkedin</h6>
+            <h6 class="FooterLinks" id="righttext">Instagram</h6>
+            <h6 class="FooterLinks" id="righttext">Discord</h6>
+        </div>
+      </div>
+      <p class="FooterRightsText">
+        © 2024 All rights reserved. All trademarks are the property of their respective owners in the US and other countries.
+        <br/>All prices include VAT (if applicable). Privacy Policy | Legal information | Subscriber Agreement | Refund | Cookies</p>
+    </div>
+  </div>
+</body>
+</html>
+
+
+
